@@ -1,0 +1,11 @@
+{
+ "kind": "tracer",
+ "engine": "https://github.com/shaelsrv/ModelMeetsReality",
+ "engine_commit": "56a33c1",
+ "tier": "designed",
+ "one_line": "says how something travels -- which move causes which",
+ "premise_shape": "In <domain>, <event A> moves <event B> before <event C>, via <mechanism>.",
+ "falsifier": "the chain runs in a different order, or skips a named link",
+ "predict_frame": "Trace the propagation path and state the ORDER in which the next links should fire.",
+ "assess_frame": "Did the chain fire in the stated order?"
+}
